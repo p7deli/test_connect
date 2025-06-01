@@ -9,6 +9,6 @@ db = connector.connect(
 
 
 cursor = db.cursor()
-cursor.execute('DROP DATABASE Hello;')
+cursor.execute('CREATE DATABASE Hello;')
 db.commit()
 db.close()
